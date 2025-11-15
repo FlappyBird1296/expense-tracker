@@ -35,53 +35,17 @@ Built using **Python, Tkinter, SQLite, and Matplotlib** — this project is perf
 
 ---
 
-## 📂 Project Structure
-
-expense-tracker/
-│
-├── main.py                    # Main application (Launches the UI)
-├── database.py                # Database initialization (Handles all SQLite operations)
-├── ui.py                      # Tkinter/CustomTkinter UI layouts
-├── exporter.py                # CSV + PDF export
-├── charts.py                  # matplotlib reports
-├── README.md                  # Project documentation for GitHub
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Ignore unwanted files
-│
-├── data/
-│   ├── expenses.db            # SQLite database
-│
-├── exports/
-│   ├── sample.csv             # Export folder for CSV/PDF
-│   ├── sample.pdf
-│
-└── screenshots/
-    ├── uiHome.png            # UI screenshot for README
-    ├── summaryChart.png
-    ├── monthlyTrendChart.png
-
----
-
 ## 🛠️ Installation & Setup
 
 ### **1. Clone the Repository**
 git clone https://github.com/your-username/expense-tracker.git
 cd expense-tracker
 
-markdown
-Copy code
-
 ### **2. Install Dependencies**
 pip install -r requirements.txt
 
-markdown
-Copy code
-
 ### **3. Run the Application**
 python main.py
-
-yaml
-Copy code
 
 ---
 
@@ -92,12 +56,6 @@ matplotlib
 sqlite3 (built-in)
 reportlab
 customtkinter
-
----
-
-<!-- ## 📸 Screenshots
-
-> Add your UI screenshots under `assets/` and embed them: -->
 
 ---
 
