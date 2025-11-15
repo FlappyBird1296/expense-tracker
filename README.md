@@ -38,7 +38,7 @@ Built using **Python, Tkinter, SQLite, and Matplotlib** — this project is perf
 ## 🛠️ Installation & Setup
 
 ### **1. Clone the Repository**
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/FlappyBird1296/expense-tracker.git
 cd expense-tracker
 
 ### **2. Install Dependencies**
