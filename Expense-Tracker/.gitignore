@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+env/
+venv/
+.venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore SQLite database (local data should not be uploaded)
+data/expenses.db
+
+# Ignore IDE project folders
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore compiled / built files
+build/
+dist/
